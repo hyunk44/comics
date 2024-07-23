@@ -1,0 +1,64 @@
+{
+    "providers": [
+        {
+            "provider": "toki",
+            "type": "comic",
+            "name": "\ub9c8\ub098\ud1a0\ub07c",
+            "domain": "manatoki341.net",
+            "schema": "https://",
+            "domainFormat": "manatoki$$$.net",
+            "domainCount": 341,
+            "enable": true
+        },
+        {
+            "provider": "toki",
+            "type": "webtoon",
+            "name": "\ub9c8\ub098\ud1a0\ub07c\uc6f9\ud230",
+            "domain": "newtoki341.com",
+            "schema": "https://",
+            "domainFormat": "newtoki$$$.com",
+            "domainCount": 341,
+            "enable": true
+        },
+        {
+            "provider": "maru",
+            "type": "comic",
+            "name": "\ub9c8\ub8e8\ub9c8\ub8e8",
+            "domain": "marumaru655.com",
+            "schema": "https://",
+            "domainFormat": "marumaru$$$.com",
+            "domainCount": 655,
+            "enable": false
+        },
+        {
+            "provider": "cook",
+            "type": "comic",
+            "name": "\ucfe1\ub9c8\ub098",
+            "domain": "www.cookmana12.com",
+            "schema": "http://",
+            "domainFormat": "www.cookmana$$$.com",
+            "domainCount": 12,
+            "enable": true
+        },
+        {
+            "provider": "toonsarang",
+            "type": "webtoon",
+            "name": "\ud230\uc0ac\ub791",
+            "domain": "toonsarang655.com",
+            "schema": "https://",
+            "domainFormat": "toonsarang$$$.com",
+            "domainCount": 655,
+            "enable": false
+        },
+        {
+            "provider": "jmana",
+            "type": "comic",
+            "name": "\uc81c\uc774\ub9c8\ub098",
+            "domain": "kr47.jmana.one",
+            "schema": "https://",
+            "domainFormat": "kr$$.jmana.one",
+            "domainCount": 47,
+            "enable": false
+        }
+    ]
+}
