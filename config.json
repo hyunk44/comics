@@ -4,21 +4,21 @@
             "provider": "toki",
             "type": "comic",
             "name": "\ub9c8\ub098\ud1a0\ub07c",
-            "domain": "manatoki341.net",
+            "domain": "manatoki462.net",
             "schema": "https://",
             "domainFormat": "manatoki$$$.net",
-            "domainCount": 341,
-            "enable": true
+            "domainCount": 462,
+            "enable": false
         },
         {
             "provider": "toki",
             "type": "webtoon",
             "name": "\ub9c8\ub098\ud1a0\ub07c\uc6f9\ud230",
-            "domain": "newtoki341.com",
+            "domain": "newtoki462.com",
             "schema": "https://",
             "domainFormat": "newtoki$$$.com",
-            "domainCount": 341,
-            "enable": true
+            "domainCount": 462,
+            "enable": false
         },
         {
             "provider": "maru",
@@ -34,10 +34,10 @@
             "provider": "cook",
             "type": "comic",
             "name": "\ucfe1\ub9c8\ub098",
-            "domain": "www.cookmana12.com",
+            "domain": "154.219.3.228",
             "schema": "http://",
-            "domainFormat": "www.cookmana$$$.com",
-            "domainCount": 12,
+            "domainFormat": "154.219.3.228",
+            "domainCount": 0,
             "enable": true
         },
         {
@@ -59,6 +59,26 @@
             "domainFormat": "kr$$.jmana.one",
             "domainCount": 47,
             "enable": false
+        },
+        {
+            "provider": "readallcomics",
+            "type": "comic",
+            "name": "realAllComics",
+            "domain": "readallcomics.com",
+            "schema": "https://",
+            "domainFormat": "readallcomics.com",
+            "domainCount": 0,
+            "enable": true
+        },
+        {
+            "provider": "xbato",
+            "type": "comic",
+            "name": "xbato",
+            "domain": "xbato.com",
+            "schema": "https://",
+            "domainFormat": "xbato.com",
+            "domainCount": 0,
+            "enable": true
         }
     ]
 }

@@ -1,4 +1,8 @@
 import io
+import cloudscraper
+import time
+# import js2py
+from py_mini_racer import py_mini_racer
 import http.client
 from urllib import parse
 from bs4 import BeautifulSoup
@@ -110,8 +114,9 @@ class Toki(Scrapper):
 
         # print(html_data)
 
-        ctx = execjs.compile(html_data)
-        res = ctx.eval(js_code)
+        # res = js2py.eval_js(html_data)
+        ctx = py_mini_racer.MiniRacer()
+        res = ctx.eval(html_data)
 
         # print()
         # print(res)
@@ -191,19 +196,32 @@ class Toki(Scrapper):
                 query = new_query
 
 
-        conn = http.client.HTTPSConnection(domain, 443)
+        #conn = http.client.HTTPSConnection(domain, 443)
         payload = ''
 
-        # print(f'query {query}')
-        # print(f'domain {domain}')
+        #print(f'query {query}')
+        #print(f'domain {domain}')
 
 
-        conn.request("GET", query, payload, headers)
-        res = conn.getresponse()
-        data = res.read()
+        #conn.request("GET", query, payload, headers)
+        #res = conn.getresponse()
 
-        # print(f'data {data}')
-        
+        #print(f'res {res}')
+        #data = res.read()
+
+        send_url = f'https://{domain}{query}'
+        scraper = cloudscraper.create_scraper()
+
+        print(send_url)
+
+        response = scraper.get(send_url)
+        time.sleep(5)
+        print(response)
+
+        data = response.text
+
+        print(f'data {data}')
+
         result = data.decode("utf-8")
 
         return result

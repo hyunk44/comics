@@ -5,6 +5,8 @@ from toki import *
 from toonsarang import *
 from cook import *
 from jmana import *
+from readallcomics import *
+from xbato import *
 
 def get_scrapper(provider, type):
     if provider == 'maru':
@@ -17,6 +19,10 @@ def get_scrapper(provider, type):
         return Cook(provider, type)
     elif provider == 'jmana':
         return Jmana(provider, type)
+    elif provider == 'readallcomics':
+        return ReadAllComics(provider, type)
+    elif provider == 'xbato':
+        return Xbato(provider, type)
 
     return
 
