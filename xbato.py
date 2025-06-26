@@ -122,10 +122,8 @@ class Xbato(Scrapper):
         targets = soup.find_all('astro-island', attrs={'component-url': lambda val: val and 'ImageList' in val})
         for tag in targets:
             props = tag.get('props', '')
-            # 이스케이프 문자 복원
             decoded_props = props.replace("&quot;", '"').replace("\\/", "/")
-            # 정규식으로 .webp 링크 추출
-            urls = re.findall(r'https://[a-zA-Z0-9./_-]+\.webp', decoded_props)
+            urls = re.findall(r'https://[a-zA-Z0-9./_-]+\.(?:webp|jpg|jpeg|png)', decoded_props)
 
             idx = 1
             for src in urls:

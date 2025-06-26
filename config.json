@@ -38,7 +38,7 @@
             "schema": "http://",
             "domainFormat": "154.219.3.228",
             "domainCount": 0,
-            "enable": true
+            "enable": false
         },
         {
             "provider": "toonsarang",
