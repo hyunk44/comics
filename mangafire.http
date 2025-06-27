@@ -1,0 +1,61 @@
+###
+GET https://mangafire.to/read/tower-dungeonn.909xm/en/chapter-18
+
+###
+GET https://mangafire.to/ajax/read/909xm/chapter/en HTTP/1.1
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Accept: application/json, text/javascript, */*; q=0.01
+# sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+# sec-ch-ua-mobile: ?0
+# Sec-Fetch-Site: same-origin
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Dest: empty
+# Referer: https://mangafire.to/read/tower-dungeonn.909xm/en/chapter-18
+# Accept-Encoding: gzip, deflate, br, zstd
+# Accept-Language: ko
+# Cookie: __pf=1; usertype=guest; session=STEvJRsCBXk6ySnnCATzc2MUyf6TTd4JkiSrYJPB; cf_clearance=ZYQ2oH3L.qr47rTF9Uc4JSWUtUelvAKvobHiJrtMU_c-1751011549-1.2.1.1-yHQuVBoZe29jm3.l9OxfRQUwE2mHonczI8k93R65s58jxqbDpYxERAeeaGu77yJljnDqz.8TIsGTB4wIJ6QkVuOWncpOw63_hYfYGI3Ebmc0LCs7kUH9cKSQ6qCHnxHxZRzUuGZ8bGIr8y.1n_09qUtZINZDgfHlk6n8lJPvofkMQ1nrw2mDkJc8ufqeDfm6OHL3lgkEQDWfuYgmlUIstZg5Sr.IuHz_d5MwbN87e8GfZXU0M8hHfCvtr4ilcIjzKZEqLeBFnaAzWMG4MOeEQHI8LOA005DjmO.Ezgdk7QV9wDhnRVVn_OeYU7zaPsxQcAZWvRxT190xBHqQTTTClfRB_5iH_LsGjjxYB3bvpps
+
+
+
+###
+GET https://mangafire.to/ajax/read/chapter/4159084 HTTP/1.1
+# Host: mangafire.to
+# Connection: keep-alive
+# sec-ch-ua-platform: "macOS"
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Accept: application/json, text/javascript, */*; q=0.01
+# sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+# sec-ch-ua-mobile: ?0
+# Sec-Fetch-Site: same-origin
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Dest: empty
+# Referer: https://mangafire.to/read/tower-dungeonn.909xm/en/chapter-18
+# Accept-Encoding: gzip, deflate, br, zstd
+# Accept-Language: ko
+# Cookie: __pf=1; usertype=guest; session=STEvJRsCBXk6ySnnCATzc2MUyf6TTd4JkiSrYJPB; cf_clearance=ZYQ2oH3L.qr47rTF9Uc4JSWUtUelvAKvobHiJrtMU_c-1751011549-1.2.1.1-yHQuVBoZe29jm3.l9OxfRQUwE2mHonczI8k93R65s58jxqbDpYxERAeeaGu77yJljnDqz.8TIsGTB4wIJ6QkVuOWncpOw63_hYfYGI3Ebmc0LCs7kUH9cKSQ6qCHnxHxZRzUuGZ8bGIr8y.1n_09qUtZINZDgfHlk6n8lJPvofkMQ1nrw2mDkJc8ufqeDfm6OHL3lgkEQDWfuYgmlUIstZg5Sr.IuHz_d5MwbN87e8GfZXU0M8hHfCvtr4ilcIjzKZEqLeBFnaAzWMG4MOeEQHI8LOA005DjmO.Ezgdk7QV9wDhnRVVn_OeYU7zaPsxQcAZWvRxT190xBHqQTTTClfRB_5iH_LsGjjxYB3bvpps
+
+
+# ###
+# curl -L -o p.jpg \
+#      -k \
+#      -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" \
+#      "https://static1.mfcdn1.xyz/.../p.jpg"
+
+###
+GET https://static1.mfcdn1.xyz/10a3872af20d5d46ad92661bc6bce45bc26fff120ae1fce65c4160acb239cb803452db1d5b6028b7bc34d45ca912b7daa0d88800c06383e9c9ecf56c0720ab867d9444eb525bee/h/p.jpg HTTP/1.1
+# Connection: keep-alive
+# Origin: https://mangafire.to
+# sec-ch-ua-platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+# sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+# sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+# Sec-Fetch-Site: cross-site
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Dest: image
+Referer: https://mangafire.to/
+# Accept-Encoding: gzip, deflate, br, zstd
+# Accept-Language: ko
+# If-Modified-Since: Tue, 27 May 2025 04:07:51 GMT

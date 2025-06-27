@@ -38,7 +38,7 @@
             "schema": "http://",
             "domainFormat": "154.219.3.228",
             "domainCount": 0,
-            "enable": false
+            "enable": true
         },
         {
             "provider": "toonsarang",
@@ -77,6 +77,16 @@
             "domain": "xbato.com",
             "schema": "https://",
             "domainFormat": "xbato.com",
+            "domainCount": 0,
+            "enable": true
+        },
+        {
+            "provider": "mangafire",
+            "type": "comic",
+            "name": "mangafire",
+            "domain": "mangafire.to",
+            "schema": "https://",
+            "domainFormat": "mangafire.to",
             "domainCount": 0,
             "enable": true
         }

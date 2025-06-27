@@ -7,6 +7,7 @@ from cook import *
 from jmana import *
 from readallcomics import *
 from xbato import *
+from mangafire import *
 
 def get_scrapper(provider, type):
     if provider == 'maru':
@@ -23,6 +24,8 @@ def get_scrapper(provider, type):
         return ReadAllComics(provider, type)
     elif provider == 'xbato':
         return Xbato(provider, type)
+    elif provider == 'mangafire':
+        return Mangafire(provider, type)
 
     return
 
