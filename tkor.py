@@ -15,6 +15,8 @@ class Tkor(Scrapper):
         payload={}
         headers = {}
 
+        keyword = keyword.replace(" ", "")
+
         url = f"https://{domain}/bbs/search.php?sfl=wr_subject%7C%7Cwr_content&stx={parse.quote(keyword)}"
         response = requests.request("GET", url, headers=headers, data=payload)
 
