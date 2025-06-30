@@ -92,7 +92,7 @@ class Xbato(Scrapper):
 
         return link_list
 
-    def get_img_data(self, url):
+    def get_img_data(self, url, sub_title):
 
         payload={}
         headers = {}
@@ -109,7 +109,7 @@ class Xbato(Scrapper):
 
         a_tag = soup.find('a', class_='link-primary link-hover')
         # 그 안에서 span.opacity-80의 텍스트만 추출
-        title = a_tag.find('span', class_='opacity-80').get_text(strip=True)
+        # title = a_tag.find('span', class_='opacity-80').get_text(strip=True)
 
         # h3_tags = soup.find_all("h3")
         # for h3 in h3_tags:
@@ -131,12 +131,12 @@ class Xbato(Scrapper):
 
                 img_list.append({
                     "src" : src,
-                    "name" : f"{title}_{idx:02}.{ext}"
+                    "name" : f"{sub_title}_{idx:02}.{ext}"
                 })
                 idx += 1
 
         img_data = {
-            "title" : title,
+            "title" : sub_title,
             "img_list": img_list
         }
 

@@ -87,7 +87,7 @@ class Toki(Scrapper):
         
         return link_list
 
-    def get_img_data(self, url):
+    def get_img_data(self, url, sub_title):
 
         # https://manatoki141.net/comic/5822817?spage=1
         result  = self.do_connect_toki(url, '', '')

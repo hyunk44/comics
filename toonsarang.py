@@ -89,7 +89,7 @@ class Toonsarang(Scrapper):
         return link_list
 
 
-    def get_img_data(self, url):
+    def get_img_data(self, url, sub_title):
 
         payload={}
         headers = {}

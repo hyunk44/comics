@@ -19,7 +19,7 @@ class Scrapper:
 
         print('get_chapter_links')
 
-    def get_img_data(self, url):
+    def get_img_data(self, url, sub_title):
 
         print('get_img_data')
 
@@ -29,7 +29,7 @@ class Scrapper:
             file_path = os.path.join(dest_folder, filename)
             headers = {}
 
-            if self.provider == 'jmana' or self.provider == 'toki':
+            if self.provider == 'jmana' or self.provider == 'toki' or self.provider == 'mangafire':
                 domain = get_domain(self.provider, self.type)
                 headers = {"Referer" : f"https://{domain}/"}
 
@@ -72,7 +72,7 @@ class Scrapper:
 
         idx = 1
         for link in chapter_links:
-            img_data = self.get_img_data(link['link'])
+            img_data = self.get_img_data(link['link'], link['sub_title'])
 
             chapter_name = img_data["title"]
 
@@ -80,6 +80,9 @@ class Scrapper:
             chapter_name = f"{int(link['idx']):03} {chapter_name}"
 
             dest_folder = os.path.join(comic_name, chapter_name)
+
+            # print(comic_name)
+            # print(chapter_name)
 
             img_list = img_data["img_list"]
 
