@@ -89,6 +89,16 @@
             "domainFormat": "mangafire.to",
             "domainCount": 0,
             "enable": true
+        },
+        {
+            "provider": "tkor",
+            "type": "comic",
+            "name": "tkor",
+            "domain": "tkor034.com",
+            "schema": "https://",
+            "domainFormat": "tkor0$$.com",
+            "domainCount": 34,
+            "enable": true
         }
     ]
 }
