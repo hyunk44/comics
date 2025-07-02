@@ -119,7 +119,7 @@ class Toonsarang(Scrapper):
             ext = src.split(".")[-1]
             img_list.append({
                 "src" : src,
-                "name" : f"{title}_{idx:02}.{ext}"
+                "name" : f"{title}_{idx:03}.{ext}"
             })
             idx = idx +1
         

@@ -151,7 +151,7 @@ class Toki(Scrapper):
 
                     img_list.append({
                         "src" : img_url,
-                        "name" : f"{title}_{idx:02}.{ext}"
+                        "name" : f"{title}_{idx:03}.{ext}"
                     })
                     idx = idx +1
 
