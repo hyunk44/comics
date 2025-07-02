@@ -118,7 +118,7 @@ class Tkor(Scrapper):
             ext = src.split(".")[-1]
             img_list.append({
                 "src" : src,
-                "name" : f"{sub_title}_{idx:02}.{ext}"
+                "name" : f"{sub_title}_{idx:03}.{ext}"
             })
             idx = idx +1
         
